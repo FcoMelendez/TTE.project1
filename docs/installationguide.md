@@ -9,85 +9,33 @@
 
 Describe in this section each the steps that are required to install the TTE components showcased in the mid-term review demo.
 
-Some examples of typicall sub-sections that may be found within this section are:
+Examples of sub-sections that may be found within this section are:
 
-### List of Apps/Components
+### List of Apps/Components (Mandatory)
 - <First App/Component Name>
 - <Second App/Component Name>
 - <...>
 
 #### First App/Component Name
 
-++Installation Method 1: Cloning the GitHub repository++
-
-Clone the repository with the following command:
-
+++Using Docker++
 ```bash
-git clone https://github.com/telefonicaid/iotagent-ul.git
+docker run ...
 ```
-
-Once the repository is cloned, from the root folder of the project execute:
-
-```bash
-npm install
-```
-
-This will download the dependencies for the project, and let it ready to the execution.
-
-When the component is executed from a cloned GitHub repository, it takes the default config file that can be found in
-the root of the repository.
-
-#### Using the RPM
-
-To see how to generate the RPM, follow the instructions in [Packaging](#packaging).
-
-To install the RPM, use the YUM tool:
-
-```bash
-yum localinstall --nogpg <rpm-file_name>
-```
-
-Be aware that the RPM installs linux services that can be used to start the application, instead of directly calling the
-executable (as explained in the section [Usage](#usage).
-
-When this option is used, all the files are installed under the `/opt/iotaul` folder. There you can find the `config.js`
-file to configure the service. Remember to restart the service each time the config file has changed.
-
-#### Using Docker
-
-There are automatic builds of the development version of the IOTAgent published in Docker hub. In order to install using
-the docker version, just execute the following:
-
-```bash
-docker run -d --link orion:orion --link mosquitto:mosquitto --link mongo:mongo -p 7896:7896 -p 4061:4061 telefonicaiot/iotagent-ul
-```
-
-As you can see, the Ultralight 2.0 (as any other IOTA) requires some docker dependencies to work:
-
--   **mongo**: Mongo database instance (to store provisioning data).
--   **orion**: Orion Context Broker.
--   **mosquitto**: Mosquitto MQTT broker, to deal with MQTT based requests.
-
-In order to link them, deploy them using docker and use the option `--link` as shown in the example. You may also want
-to map the external IoT Agent North and South ports, for external calls: 4061 (NGSI Interactions for traffic north of
-the IoT Agent) and 7896 (HTTP binding for traffic south of the IoT Agent).
-
-#### Build your own Docker image
-
-There is also the possibility to build your own local Docker image of the IOTAUL component.
-
-To do it, follow the next steps once you have installed Docker in your machine:
-
-1.  Navigate to the path where the component repository was cloned.
-2.  Launch a Docker build
-    -   Using the default NodeJS version of the operating system used defined in FROM keyword of Dockerfile:
+++Build your own Docker image++
+If you want to build your own local Docker image of this App/Component
+1.  Installdocker in your machine. 
+2.  Navigate to the path where the component repository was cloned.
+3.  Launch a Docker build
+    -  Default...
     ```bash
     sudo docker build -f Dockerfile .
     ```
-    -   Using an alternative NodeJS version:
+    -   Alternative...
     ```bash
-    sudo docker build --build-arg NODEJS_VERSION=0.10.46 -f Dockerfile .
+    sudo docker build --build-arg ... -f Dockerfile .
     ```
+++Alternative Installation Methods++
 
 ## Usage
 
