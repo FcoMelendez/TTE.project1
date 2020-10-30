@@ -11,7 +11,14 @@ Describe in this section each the steps that are required to install the TTE com
 
 Some examples of typicall sub-sections that may be found within this section are:
 
-++#### Installation Method 1: Cloning the GitHub repository++
+### List of Apps/Components
+- <First App/Component Name>
+- <Second App/Component Name>
+- <...>
+
+#### First App/Component Name
+
+++Installation Method 1: Cloning the GitHub repository++
 
 Clone the repository with the following command:
 
