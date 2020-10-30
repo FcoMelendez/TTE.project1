@@ -9,9 +9,9 @@
 
 Describe in this section each the steps that are required to install the TTE components showcased in the mid-term review demo.
 
-Some examples of typicall sub-sections that may be found here are
+Some examples of typicall sub-sections that may be found within this section are:
 
-#### Cloning the GitHub repository
+#### ++Installation Method 1: Cloning the GitHub repository++
 
 Clone the repository with the following command:
 
