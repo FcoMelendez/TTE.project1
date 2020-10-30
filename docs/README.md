@@ -1,8 +1,5 @@
 # Mid-Term Review
 
-| :books: [Documentation](https://link-to-docs) | :whale: [Docker Hub](https://hub.docker.com/r/link-to-docker) |
-| --------------------------------------------- | ---------------------------------------- |
-
 ## Contents
 
 -   [Background](#background)
@@ -14,11 +11,16 @@
 
 ## Background
 
+#### Use Case Description
+
+#### Proposed Solution
+
+## Setup Overview 
 ```
 Background information and links to relevant terms
 ```
-
-## Install
+## Demo
+#### Install
 
 ```
 How to install the TTE components:
@@ -28,7 +30,7 @@ Information about how to install the following components can be found at the co
 - <Name of component>
 ```
 
-## Usage
+#### Usage
 
 ```
 How to use the component
@@ -38,7 +40,7 @@ Information about how to use the <Name of component> can be found in the [User &
 The following features are listed as [deprecated](docs/deprecated.md).
 ```
 
-## API
+#### API
 
 ```
 Definition of the API interface:
@@ -47,7 +49,7 @@ Information about the API of  the <Name of component> can be found in the [API d
 
 ```
 
-## Testing
+#### Testing
 
 ```
 How to test the component
