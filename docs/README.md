@@ -3,7 +3,10 @@
 ## Contents
 
 -   [Background](#background)
--   [Install](#install)
+    -   [Use Case Description](#use-case-description)
+    -   [Proposed Solution](#proposed-solution)
+-   [Mid-Term Setup Implementation Description](#mid-term-setup-implementation-description)
+-   [Demo]
 -   [Usage](#usage)
 -   [API](#api)
 -   [Testing](#testing)
@@ -15,7 +18,7 @@
 
 #### Proposed Solution
 
-## Setup Overview 
+## Mid-Term Setup Implementation Description 
 ```
 Background information and links to relevant terms
 ```
