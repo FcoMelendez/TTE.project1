@@ -7,6 +7,7 @@
     -   [Proposed Solution](#proposed-solution)
 -   [Mid-Term Setup Implementation Description](#mid-term-setup-implementation-description)
 -   [Demo](#demo)
+    -   [Install](#install)
     -   [Usage](#usage)
     -   [API](#api)
     -   [Testing](#testing)
