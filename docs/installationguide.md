@@ -18,11 +18,11 @@ Examples of sub-sections that may be found within this section are:
 
 #### First App/Component Name
 
-++Using Docker++
+==Using Docker==
 ```bash
 docker run ...
 ```
-++Build your own Docker image++
+==Build your own Docker image==
 If you want to build your own local Docker image of this App/Component
 1.  Installdocker in your machine. 
 2.  Navigate to the path where the component repository was cloned.
