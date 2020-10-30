@@ -1,5 +1,4 @@
 # Installation & Administration Guide
--
 -   [Installation](#installation)
 -   [Usage](#usage)
 -   [Packaging](#packaging)
@@ -12,7 +11,7 @@ Describe in this section each the steps that are required to install the TTE com
 Examples of sub-sections that may be found within this section are:
 
 ### List of Apps/Components (Mandatory)
-- <First App/Component Name>
+- [<First App/Component Name>](#First App/Component Name)
 - <Second App/Component Name>
 - <...>
 
