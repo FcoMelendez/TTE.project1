@@ -6,10 +6,10 @@
     -   [Use Case Description](#use-case-description)
     -   [Proposed Solution](#proposed-solution)
 -   [Mid-Term Setup Implementation Description](#mid-term-setup-implementation-description)
--   [Demo]
--   [Usage](#usage)
--   [API](#api)
--   [Testing](#testing)
+-   [Demo](#demo)
+    -   [Usage](#usage)
+    -   [API](#api)
+    -   [Testing](#testing)
 -   [License](#license)
 
 ## Background
